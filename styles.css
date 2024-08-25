@@ -1,0 +1,330 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Hamburger menu icon */
+/* .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+} */
+
+
+
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+    background: url('hero-image.jpg') no-repeat center center/cover;
+}
+
+.hero .cta-buttons {
+    margin-top: 20px;
+}
+
+.hero .btn {
+    background: #e94e77;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.hero .btn:hover {
+    background: #d43f66;
+}
+
+.features {
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #3d484d;
+}
+
+.features .feature {
+    text-align: center;
+    width: 30%;
+}
+
+.features h2 {
+    margin-bottom: 10px;
+}
+
+.upcoming-tournaments{
+    color: #ff0000;
+}
+/* Footer Styling
+footer {
+    background-color: #504a4a;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+} */
+
+section {
+    padding: 20px;
+}
+.profile{
+    color: wheat;
+    opacity: 0.9;
+    background: #242323;
+    margin: 20px auto;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile img{
+    width:200px;
+     height:200px;
+      border-radius:50%;
+      opacity: 20;
+}
+
+.wallet{
+    opacity: 0.85;
+    background-color: #444;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tournaments,.login, .register, .tournament-details, .admin-panel {
+    background: #585858;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter label {
+    margin-right: 10px;
+}
+
+.filter select, .filter input {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.tournament-list, .transaction-history, .profile ul {
+    list-style: none;
+}
+
+.tournament-item, .transaction-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.tournament-item:last-child, .transaction-item:last-child {
+    border-bottom: none;
+}
+
+.tournament-item h2, .transaction-item p {
+    margin-bottom: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background: #e94e77;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #d43f66;
+}
+
+.btn {
+    background: #e94e77;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #d43f66;
+}
+
+.admin-panel .btn {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.imgg img{
+    width: 100px;
+    height: 100px;
+    margin-left: 2px;
+    border-radius: 3300px;
+}
+.name{
+    margin-left: -7px;
+    font-size: 16px ;
+
+}
+/* Footer */
+/* footer{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+
+}
+footer li {
+    list-style-type: none;
+}
+    footer ul {
+    display: flex;
+}
+footer ul li a{
+    text-decoration: none;
+} */
+
+/* Ensure body and html are 100% height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content wrapper to push footer down */
+main {
+    flex: 1;
+}
+
+/* Footer stays at the bottom */
+/* Footer stays at the bottom and displays text in a single line */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* image edit */
+section img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+
+/*  Profile */
